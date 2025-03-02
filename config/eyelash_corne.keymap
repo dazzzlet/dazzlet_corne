@@ -60,16 +60,19 @@
         leftcontrol {
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <15 33>;
+            layers = <0>;
         };
 
         leftgui {
             bindings = <&kp LEFT_GUI>;
             key-positions = <14 33>;
+            layers = <0>;
         };
 
         leftoption {
             bindings = <&kp LEFT_ALT>;
             key-positions = <33 16>;
+            layers = <0>;
         };
     };
 
