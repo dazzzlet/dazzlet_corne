@@ -46,6 +46,33 @@
         tap-ms = <30>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        leftshift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <29 17>;
+            slow-release;
+            layers = <0>;
+            timeout-ms = <150>;
+        };
+
+        leftcontrol {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <15 33>;
+        };
+
+        leftgui {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <14 33>;
+        };
+
+        leftoption {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <33 16>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
