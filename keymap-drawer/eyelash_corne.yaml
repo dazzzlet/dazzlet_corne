@@ -257,3 +257,15 @@ combos:
 - p: [33, 16]
   k: $$mdi:apple-keyboard-option$$
   l: [QWERTY]
+- p: [23, 40]
+  k: $$mdi:apple-keyboard-shift$$
+  l: [QWERTY]
+- p: [36, 26]
+  k: RIGHT GUI
+  l: [QWERTY]
+- p: [36, 25]
+  k: $$mdi:apple-keyboard-control$$
+  l: [QWERTY]
+- p: [36, 24]
+  k: $$mdi:apple-keyboard-option$$
+  l: [QWERTY]
