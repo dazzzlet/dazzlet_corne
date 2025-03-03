@@ -269,3 +269,15 @@ combos:
 - p: [36, 24]
   k: $$mdi:apple-keyboard-option$$
   l: [QWERTY]
+- p: [16, 44]
+  k: Alt+$$mdi:keyboard-tab$$
+  l: [QWERTY]
+- p: [14, 44]
+  k: Gui+$$mdi:keyboard-tab$$
+  l: [QWERTY]
+- p: [14, 16]
+  k: Alt+~
+  l: [QWERTY]
+- p: [17, 42]
+  k: Sft+$$mdi:keyboard-esc$$
+  l: [QWERTY]
