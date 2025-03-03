@@ -298,3 +298,27 @@ combos:
 - p: [30, 32, 31]
   k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
   l: [QWERTY]
+- p: [17, 15]
+  k: Ctl+$$mdi:apple-keyboard-shift$$
+  l: [QWERTY]
+- p: [17, 15, 16]
+  k: Ctl+Alt+$$mdi:apple-keyboard-shift$$
+  l: [QWERTY]
+- p: [23, 25]
+  k: Ctl+$$mdi:apple-keyboard-shift$$
+  l: [QWERTY]
+- p: [23, 25, 24]
+  k: Ctl+AltGr+$$mdi:apple-keyboard-shift$$
+  l: [QWERTY]
+- p: [17, 14]
+  k: Gui+$$mdi:apple-keyboard-shift$$
+  l: [QWERTY]
+- p: [17, 16, 14]
+  k: Alt+Gui+$$mdi:apple-keyboard-shift$$
+  l: [QWERTY]
+- p: [23, 26]
+  k: Gui+$$mdi:apple-keyboard-shift$$
+  l: [QWERTY]
+- p: [23, 24, 26]
+  k: AltGr+Gui+$$mdi:apple-keyboard-shift$$
+  l: [QWERTY]
