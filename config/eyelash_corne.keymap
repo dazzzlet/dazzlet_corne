@@ -246,6 +246,54 @@
             slow-release;
             layers = <0>;
         };
+
+        ctrl-enter {
+            bindings = <&kp RC(ENTER)>;
+            key-positions = <25 46>;
+            timeout-ms = <220>;
+            slow-release;
+            layers = <0>;
+        };
+
+        cmd-enter {
+            bindings = <&kp RG(ENTER)>;
+            key-positions = <46 26>;
+            timeout-ms = <220>;
+            slow-release;
+            layers = <0>;
+        };
+
+        alt-enter {
+            bindings = <&kp RA(ENTER)>;
+            key-positions = <46 24>;
+            timeout-ms = <220>;
+            slow-release;
+            layers = <0>;
+        };
+
+        shift-enter {
+            bindings = <&kp RS(ENTER)>;
+            key-positions = <46 23>;
+            timeout-ms = <220>;
+            slow-release;
+            layers = <0>;
+        };
+
+        ctrl-bksp {
+            bindings = <&kp RC(BACKSPACE)>;
+            key-positions = <25 45>;
+            timeout-ms = <220>;
+            slow-release;
+            layers = <0>;
+        };
+
+        opt-bksp {
+            bindings = <&kp RC(BACKSPACE)>;
+            key-positions = <45 24>;
+            timeout-ms = <220>;
+            slow-release;
+            layers = <0>;
+        };
     };
 
     keymap {
