@@ -56,7 +56,7 @@
             key-positions = <29 17>;
             slow-release;
             layers = <0>;
-            timeout-ms = <150>;
+            timeout-ms = <220>;
         };
 
         leftcontrol {
@@ -64,6 +64,7 @@
             key-positions = <15 33>;
             layers = <0>;
             slow-release;
+            timeout-ms = <220>;
         };
 
         leftgui {
@@ -71,6 +72,7 @@
             key-positions = <14 33>;
             layers = <0>;
             slow-release;
+            timeout-ms = <220>;
         };
 
         leftoption {
@@ -78,6 +80,7 @@
             key-positions = <33 16>;
             layers = <0>;
             slow-release;
+            timeout-ms = <220>;
         };
 
         rightshift {
@@ -85,6 +88,7 @@
             key-positions = <23 40>;
             layers = <0>;
             slow-release;
+            timeout-ms = <220>;
         };
 
         rightgui {
@@ -92,6 +96,7 @@
             key-positions = <36 26>;
             layers = <0>;
             slow-release;
+            timeout-ms = <220>;
         };
 
         rightcontrol {
@@ -99,6 +104,7 @@
             key-positions = <36 25>;
             layers = <0>;
             slow-release;
+            timeout-ms = <220>;
         };
 
         rightoption {
@@ -106,6 +112,7 @@
             key-positions = <36 24>;
             layers = <0>;
             slow-release;
+            timeout-ms = <220>;
         };
     };
 
