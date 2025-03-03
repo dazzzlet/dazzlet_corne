@@ -112,7 +112,7 @@ layers:
   - )
   - $$mdi:progress-download$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '~', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '`', h: '$$mdi:apple-keyboard-command$$', s: '~'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
@@ -276,7 +276,7 @@ combos:
   k: Gui+$$mdi:keyboard-tab$$
   l: [QWERTY]
 - p: [14, 16]
-  k: Alt+~
+  k: Alt+`
   l: [QWERTY]
 - p: [17, 42]
   k: Sft+$$mdi:keyboard-esc$$
