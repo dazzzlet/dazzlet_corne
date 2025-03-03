@@ -142,6 +142,46 @@
             timeout-ms = <220>;
             layers = <0>;
         };
+
+        wincopy {
+            bindings = <&kp LC(C)>;
+            key-positions = <29 31>;
+            timeout-ms = <220>;
+            layers = <0>;
+        };
+
+        winpaste {
+            bindings = <&kp LC(V)>;
+            key-positions = <29 32>;
+            layers = <0>;
+            timeout-ms = <220>;
+        };
+
+        wincut {
+            bindings = <&kp LC(X)>;
+            key-positions = <29 30>;
+        };
+
+        maccopy {
+            bindings = <&kp LG(C)>;
+            key-positions = <32 31>;
+            timeout-ms = <220>;
+            layers = <0>;
+        };
+
+        maccut {
+            bindings = <&kp LG(X)>;
+            key-positions = <30 32>;
+            timeout-ms = <220>;
+            layers = <0>;
+        };
+
+        macpaste {
+            bindings = <&kp LG(V)>;
+            key-positions = <30 32 31>;
+            timeout-ms = <220>;
+            layers = <0>;
+        };
     };
 
     keymap {
