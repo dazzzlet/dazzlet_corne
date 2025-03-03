@@ -182,6 +182,70 @@
             timeout-ms = <220>;
             layers = <0>;
         };
+
+        leftctlshift {
+            bindings = <&kp LC(LEFT_SHIFT)>;
+            key-positions = <17 15>;
+            timeout-ms = <220>;
+            slow-release;
+            layers = <0>;
+        };
+
+        left-ctraltshift {
+            bindings = <&kp LC(LA(LEFT_SHIFT))>;
+            key-positions = <17 15 16>;
+            timeout-ms = <220>;
+            slow-release;
+            layers = <0>;
+        };
+
+        right-ctrlshift {
+            bindings = <&kp RC(RIGHT_SHIFT)>;
+            key-positions = <23 25>;
+            timeout-ms = <220>;
+            slow-release;
+            layers = <0>;
+        };
+
+        right-ctrlaltshift {
+            bindings = <&kp RC(RA(RIGHT_SHIFT))>;
+            key-positions = <23 25 24>;
+            timeout-ms = <220>;
+            slow-release;
+            layers = <0>;
+        };
+
+        left-cmdshift {
+            bindings = <&kp LG(LEFT_SHIFT)>;
+            key-positions = <17 14>;
+            timeout-ms = <220>;
+            slow-release;
+            layers = <0>;
+        };
+
+        left-cmdoptshift {
+            bindings = <&kp LA(LG(LEFT_SHIFT))>;
+            key-positions = <17 16 14>;
+            timeout-ms = <220>;
+            slow-release;
+            layers = <0>;
+        };
+
+        right-cmdshift {
+            bindings = <&kp RG(RIGHT_SHIFT)>;
+            key-positions = <23 26>;
+            timeout-ms = <220>;
+            slow-release;
+            layers = <0>;
+        };
+
+        right-cmdoptshift {
+            bindings = <&kp RA(RG(RIGHT_SHIFT))>;
+            key-positions = <23 24 26>;
+            timeout-ms = <220>;
+            slow-release;
+            layers = <0>;
+        };
     };
 
     keymap {
