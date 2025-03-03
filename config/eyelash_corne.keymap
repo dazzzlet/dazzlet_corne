@@ -114,6 +114,34 @@
             slow-release;
             timeout-ms = <220>;
         };
+
+        left-alt-tab {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <16 44>;
+            timeout-ms = <200>;
+            layers = <0>;
+        };
+
+        left-gui-tab {
+            bindings = <&kp LG(TAB)>;
+            key-positions = <14 44>;
+            timeout-ms = <220>;
+            layers = <0>;
+        };
+
+        left-option-tilde {
+            bindings = <&kp LA(TILDE)>;
+            key-positions = <14 16>;
+            timeout-ms = <220>;
+            layers = <0>;
+        };
+
+        left-shilf-esc {
+            bindings = <&kp LS(ESCAPE)>;
+            key-positions = <17 42>;
+            timeout-ms = <220>;
+            layers = <0>;
+        };
     };
 
     keymap {
